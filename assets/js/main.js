@@ -39,10 +39,16 @@ jQuery(document).ready(function ($) {
     /* ---------------------------------------------------------------------
      Carousel
      ---------------------------------------------------------------------= */
+    var bannerBgArr = [];
+    bannerBgArr[0] = './assets/images/matho_banner.jpg';
+    bannerBgArr[1] = './assets/images/banner_bg.jpg';
+    bannerBgArr[2] = './assets/images/codo1.jpg';
+    bannerBgArr[3] = './assets/images/gamo3.jpg';
+   var indx = 0;
 
-    $('.main_home_slider').owlCarousel({
+    var owl = $('.main_home_slider').owlCarousel({
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         items: 1,
         loop: true,
         dots: true,
@@ -54,10 +60,16 @@ jQuery(document).ready(function ($) {
         autoplayHoverPause: true
 
     });
+    owl.on('changed.owl.carousel', function(event) {
+        if(indx == bannerBgArr.length)
+            indx = 0;
+        $('.home').css('background','url('+bannerBgArr[indx]+') no-repeat 100% 100%' );
+        indx++;
+    });
 
     $('.single_features_slide').owlCarousel({
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         items: 1,
         loop: true,
         dots: true,

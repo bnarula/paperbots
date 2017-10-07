@@ -588,7 +588,7 @@ input::-ms-input-placeholder {
     padding: 0px 15px;
 }
 .navbar-brand>img {
-    max-width: 80%;
+    max-width: 50%;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
@@ -645,7 +645,7 @@ input::-ms-input-placeholder {
 
 /*home section*/
 .home{
-    background: url(../images/homebg.jpg) no-repeat 100% 100%;
+    background: url(../images/banner_bg.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 
@@ -710,22 +710,28 @@ input::-ms-input-placeholder {
     margin: top;
 }*/
 
-.service .nav-tabs>li>a{
+.nav-tabs>li{
     text-align: center;
     color: #444444;
-    width: 250px;
-    height: 180px;
+    width: 168px;
+    height: 97px;
     margin-left:20px;
-    background: url(../images/stabmenubg.png) no-repeat top center;
     border:0px;
     transition: all 0.6s;
+    font-size:18px;
+    background-color: #eee;
 }
-.service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
-    background: url(../images/stabmenubghv.png) no-repeat top center;
-    width:250px;
-    height: 180px;
+nav-tabs>li>span{
+    font-size:36px;
+}
+
+.service_tabe_menu.nav-tabs>li:hover, .nav-tabs>li:focus{
+    background-color: #ff7200;
     color:#fff;
 
+}
+.small-description {
+    font-size :24px;
 }
 .service_tabe ul li a:hover{
     background: url(../images/stabmenubghv.png) no-repeat top center;
@@ -741,6 +747,15 @@ input::-ms-input-placeholder {
     margin-top:100px;
 }
 
+.programs{
+    margin-bottom:40px;
+
+}
+.single_ft_s_item img {
+    width:500px;
+    height:300px;
+    object-fit: cover;
+}
 
 /*features section css*/
 
