@@ -5,6 +5,13 @@
  * Author URL: https://probootstrap.com
  * License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
  */
+
+:root {
+  --golden: #F9BE02;
+  --coral: #F53240;
+  --sky: #7CDBD5;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
@@ -28,7 +35,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #181920;
   line-height: 1.5;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: Arial;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
@@ -95,8 +102,10 @@ a:hover, a:focus, a:active {
 }
 
 .hero-text-subheading, .probootstrap-hero p, .flexslider .probootstrap-subheading {
-  color : #fbff62;
+  margin-top: 70px;
+  color: var(--golden);
   font-size: 28px;
+  font-family: sans-serif;
 }
 
 .hero-text-subheading:last-child, .probootstrap-hero p:last-child, .flexslider .probootstrap-subheading:last-child {
@@ -106,7 +115,7 @@ a:hover, a:focus, a:active {
 .probootstrap-page-wrapper {
   max-width: 1500px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #FFFFFF;
 }
 
 @media screen and (max-width: 1500px) {
@@ -160,6 +169,8 @@ a:hover, a:focus, a:active {
   position: relative;
   -webkit-transition: .3s all;
   transition: .3s all;
+  color: var(--golden);
+  text-shadow: var(--coral);
 }
 
 @media screen and (max-width: 768px) {
@@ -189,7 +200,7 @@ a:hover, a:focus, a:active {
 .probootstrap-top-quick-contact-info span i {
   display: inline-block;
   margin-right: 10px;
-  color: #49D292;
+  color: var(--golden);
 }
 
 .probootstrap-top-social {
@@ -234,9 +245,10 @@ a:hover, a:focus, a:active {
   box-shadow: none;
   border-radius: 0px;
   margin-bottom: 0px;
-  background: #ffffff;
+  /* background: #ffffff; */
   -webkit-transition: .3s all;
   transition: .3s all;
+  height: 100px;
 }
 
 @media screen and (max-width: 768px) {
@@ -347,7 +359,7 @@ a:hover, a:focus, a:active {
 .img-logo{
   position : absolute;
   z-index: 3;
-  width: 160px;
+  width: 189px;
 }
 .probootstrap-navbar .dropdown > a:before {
   font-family: 'icomoon';
@@ -952,8 +964,9 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative;
+  /* background-color: cadetblue; */
 }
 
 .probootstrap-section.probootstrap-section-sm {
@@ -974,11 +987,10 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-section.probootstrap-section-colored {
-  background: #6a41ed;
+  /* background: whitesmoke; */
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
-  color: white;
 }
 
 .probootstrap-section.probootstrap-section-colored .section-heading p {
@@ -994,11 +1006,22 @@ a:hover, a:focus, a:active {
     padding: 3em 0;
   }
 }
-
+.section-programs img{
+   object-fit :cover;
+   width: 100%;
+   height: 487px;
+   /* object-position: -78px -1px; */
+}
+.section-events{
+  background-image: url('../img/events2.jpg');
+  background-repeat: no-repeat;
+  height: 460px;
+  background-position: 0px -113px;
+}
 .probootstrap-section.probootstrap-bg {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
 }
 
 .probootstrap-section.probootstrap-bg:before {
@@ -1029,7 +1052,7 @@ a:hover, a:focus, a:active {
 .section-heading h2 {
   line-height: 40px;
   font-size: 40px;
-  font-weight: 300;
+  /* font-weight: 800; */
 }
 
 @media screen and (max-width: 768px) {
@@ -1385,20 +1408,20 @@ a:hover, a:focus, a:active {
 
 .probootstrap-counter-wrap .probootstrap-icon i {
   font-size: 40px;
-  color: #49D292;
+  color: var(--golden);
 }
 
 .probootstrap-counter-wrap .probootstrap-text .probootstrap-counter {
   display: block;
   font-size: 40px;
-  color: #000000;
+  color: var(--golden);
   margin-bottom: 10px;
   font-family: "Open Sans", Arial, sans-serif;
 }
 
 .probootstrap-counter-wrap .probootstrap-text .probootstrap-counter-label {
   display: block;
-  color: #b3b2b2;
+  color: var(--golden);
   line-height: 20px;
 }
 
@@ -1432,10 +1455,11 @@ a:hover, a:focus, a:active {
 .probootstrap-flex-block .probootstrap-text {
   width: 30%;
   margin-right: 20px;
-  background: #ffffff;
+  background: white;
   padding: 40px;
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -1538,7 +1562,7 @@ a:hover, a:focus, a:active {
   padding: 20px 30px;
   background: #49D292;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 40px;
   border: none !important;
 }
 
@@ -1616,7 +1640,7 @@ a:hover, a:focus, a:active {
   top: -30px;
   -webkit-transition: .3s all;
   transition: .3s all;
-  border-bottom: 3px solid #6a41ed;
+  border-bottom: 3px solid var(--coral);
 }
 
 .probootstrap-featured-news-box .probootstrap-text h3 {
@@ -1634,7 +1658,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-featured-news-box:hover .probootstrap-text, .probootstrap-featured-news-box:focus .probootstrap-text {
-  background: #6a41ed;
+  background: var(--golden);
   top: -40px;
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
@@ -1751,7 +1775,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-service-2 .text {
-  width: 60%;
+  /* width: 60%; */
 }
 
 @media screen and (max-width: 480px) {
@@ -1773,16 +1797,20 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-service-2 .image .image-bg {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* -webkit-transform: translateY(-50%) translateX(-50%); */
+  /* transform: translateY(-50%) translateX(-50%); */
 }
 
 .probootstrap-service-2 .image .image-bg img {
-  min-width: 100%;
-  min-height: 100%;
+  /* min-width: 100%; */
+  /* min-height: 100%; */
+  object-fit: cover;
+  object-position: -36px -191px;
+  width: 400px;
+  height: 379px;
 }
 
 .probootstrap-service-2 .text {
