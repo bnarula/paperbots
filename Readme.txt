@@ -1,36 +1,63 @@
-== Theme Name: Logic - Free Html5 Multipurpose Business Template
-
-== Copyright (c) 2016 BootstrapThemes.co
-
-== http://BootstrapThemes.co
-
-
-
-Html Created by: http://bootstrapthemes.co
+THEME: Enlight - Free Bootstrap Theme
+AUTHOR: ProBootstrap.com
+AUTHOR URI: https://probootstrap.com/
+Twitter: https://twitter.com/probootstrap
+Facebook: https://facebook.com/probootstrap
 
 
+CREDITS:
 
-Psd Created by: --Arifuzzaman Sajib-- https://www.behance.net/gallery/31881449/Free-Multipurpose-Business-PSD-Template
+Bootstrap
+http://getbootstrap.com/
 
+jQuery
+http://jquery.com/
 
-Rights: 
-You are permitted to use the resources for any number of personal and commercial projects.
-You may modify the resources according to your requirements and include them into works, 
-such as websites, applications or other materials intended for sale. No attribution or 
-link back to this site is required, however any credit will be much appreciated.
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
 
+HTML5Shiv
+https://github.com/aFarkas/html5shiv
 
-Prohibitions:
-You do not have the rights to redistribute, resell, lease, license, sublicense or offer 
-files downloaded from http://bootstrapthemes.co to any third party ìas isî or as a separate attachment 
-from any of your work. If you wish to promote my resources on your site, you must link back 
-to the resource page where users can find the download and not directly to the download file.
+Google Fonts
+https://www.google.com/fonts/
 
+Icomoon
+https://icomoon.io/app/
 
+Respond JS
+https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-If you would like to share one of my resources, you can do so by making a link to the specific 
-resource on http://bootstrapthemes.co , you can if you wish insert the embed code for the product previews images to illustrate your link. 
-No HOTLINKING is allowed i.e. you cannot make a direct link to the download or/and the images hosted on http://bootstrapthemes.co
+animate.css
+http://daneden.me/animate
 
-Concerning blog posts, you are free to link to it from any website, 
-but you cannot however publish it as it is, without prior consent from http://bootstrapthemes.co
+jQuery Waypoint
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+
+Stellar Parallax
+http://markdalgleish.com/projects/stellar.js/
+
+Owl Carousel
+https://owlcarousel2.github.io/OwlCarousel2/
+
+FlexSlider
+http://flexslider.woothemes.com
+
+Demo Images
+https://unsplash.com
+https://pexels.com
+
+Video
+https://vimeo.com
+
+PhotoSwipe
+http://photoswipe.com/
+
+Magnific Popup
+http://dimsemenov.com/plugins/magnific-popup/
+
+Isotope
+https://isotope.metafizzy.co/
+
+ImagesLoaded
+https://github.com/desandro/imagesloaded
