@@ -82,7 +82,7 @@ a:hover, a:focus, a:active {
   margin-top: 0;
   line-height: 64px;
   color: honeydew;
-  font-family: "Knewave", "Adobe Blank";
+  font-family: Courgette;
   text-transform: capitalize;
 }
 
@@ -102,10 +102,11 @@ a:hover, a:focus, a:active {
 }
 
 .hero-text-subheading, .probootstrap-hero p, .flexslider .probootstrap-subheading {
-  margin-top: 70px;
-  color: var(--golden);
-  font-size: 28px;
-  font-family: sans-serif;
+  margin-top: 49px;
+  color: honeydew;
+  font-size: 29px;
+  font-family: Segoe UI;
+  line-height: 45px;
 }
 
 .hero-text-subheading:last-child, .probootstrap-hero p:last-child, .flexslider .probootstrap-subheading:last-child {
@@ -359,7 +360,8 @@ a:hover, a:focus, a:active {
 .img-logo{
   position : absolute;
   z-index: 3;
-  width: 189px;
+  top: 22px;
+  width: 207px;
 }
 .probootstrap-navbar .dropdown > a:before {
   font-family: 'icomoon';
@@ -1009,7 +1011,7 @@ a:hover, a:focus, a:active {
 .section-programs img{
    object-fit :cover;
    width: 100%;
-   height: 487px;
+   height: 155px;
    /* object-position: -78px -1px; */
 }
 .section-events{
@@ -1134,7 +1136,6 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-footer {
-  padding: 7em 0;
   padding-bottom: 0;
   background: #000000;
   color: rgba(255, 255, 255, 0.9);
@@ -1156,7 +1157,6 @@ a:hover, a:focus, a:active {
 
 .probootstrap-footer .probootstrap-copyright {
   padding: 3em 0;
-  margin-top: 20px;
   background: #1a1919;
 }
 
@@ -1485,6 +1485,7 @@ a:hover, a:focus, a:active {
   background-repeat: no-repeat;
   margin-right: 0px;
   position: relative;
+  background-position-y: -321px;
 }
 
 .probootstrap-flex-block .probootstrap-image .btn-video {
@@ -2550,7 +2551,7 @@ a:hover, a:focus, a:active {
 .probootstrap-testimony-wrap {
   background: #ffffff;
   border-radius: 4px;
-  padding: 20px;
+  padding: 5px;
 }
 
 .probootstrap-testimony-wrap figure {
@@ -2585,12 +2586,12 @@ a:hover, a:focus, a:active {
 }
 
 .owl-carousel-testimony .item {
-  padding-bottom: 40px;
-  padding-top: 20px;
+  /* padding-bottom: 40px; */
+  /* padding-top: 20px; */
 }
 
 .owl-carousel-testimony .probootstrap-testimony-wrap {
-  max-width: 700px;
+  max-width: 266px;
   margin: 0 auto;
 }
 
@@ -2615,7 +2616,7 @@ a:hover, a:focus, a:active {
 
 
 .flexslider .probootstrap-slider-text {
-  margin-top: 150px;
+  margin-top: 260px;
 }
 
 @media screen and (max-width: 480px) {
@@ -2757,7 +2758,7 @@ a:hover, a:focus, a:active {
 
 /* Owl carousel override style */
 .owl-carousel {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 .owl-carousel.border-rounded .item {
