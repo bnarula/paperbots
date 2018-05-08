@@ -1001,6 +1001,9 @@ a:hover, a:focus, a:active {
 .probootstrap-section.probootstrap-section-colored {
   /* background: whitesmoke; */
 }
+#sec-about .section-heading {
+  margin-bottom: 70px;
+}
 
 .probootstrap-section.probootstrap-section-colored .section-heading h2 {
 }
@@ -1623,6 +1626,7 @@ a:hover, a:focus, a:active {
 .probootstrap-tab-style-1 {
   position: absolute;
   bottom: 1px;
+  left: 43.5%;
 }
 
 @media screen and (max-width: 768px) {
