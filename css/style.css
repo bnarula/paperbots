@@ -29,7 +29,7 @@ body {
   color: #8b8e94;
   line-height: 28px;
   font-size: 15px;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: Segoe UI;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,7 +83,7 @@ a:hover, a:focus, a:active {
   line-height: 64px;
   color: honeydew;
   font-family: Courgette;
-  text-transform: capitalize;
+
 }
 
 
@@ -97,7 +97,7 @@ a:hover, a:focus, a:active {
 
 @media screen and (max-width: 480px) {
   .hero-text-heading, .probootstrap-hero h1, .flexslider .probootstrap-heading {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 
@@ -107,6 +107,12 @@ a:hover, a:focus, a:active {
   font-size: 29px;
   font-family: Segoe UI;
   line-height: 45px;
+}
+@media screen and (max-width: 480px) {
+  .hero-text-subheading, .probootstrap-hero p, .flexslider .probootstrap-subheading {
+    font-size: 20px;
+
+  }
 }
 
 .hero-text-subheading:last-child, .probootstrap-hero p:last-child, .flexslider .probootstrap-subheading:last-child {
@@ -356,6 +362,9 @@ a:hover, a:focus, a:active {
     display: block;
     padding-right: 0px;
   }
+  .img-logo{
+    left: 20px;
+  }
 }
 .img-logo{
   position : absolute;
@@ -363,6 +372,7 @@ a:hover, a:focus, a:active {
   top: 22px;
   width: 207px;
 }
+
 .probootstrap-navbar .dropdown > a:before {
   font-family: 'icomoon';
   speak: none;
@@ -1020,6 +1030,18 @@ a:hover, a:focus, a:active {
   height: 460px;
   background-position: 0px -113px;
 }
+@media screen and (max-width: 500px){
+    .section-events.probootstrap-section.probootstrap-bg{
+      background-size: auto;
+      height: 300px;
+      background-position: -142px -185px;
+    }
+    .section-events>.probootstrap-tab-style-1{
+      width: 42%;
+      margin: 0 auto;
+      bottom: 42px;
+    }
+}
 .probootstrap-section.probootstrap-bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -1037,7 +1059,7 @@ a:hover, a:focus, a:active {
 }
 
 .section-heading {
-  margin-bottom: 70px;
+  margin-bottom: 37px;
 }
 
 .section-heading h1 {
@@ -1156,7 +1178,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-footer .probootstrap-copyright {
-  padding: 3em 0;
+  padding: 1em 0;
   background: #1a1919;
 }
 
@@ -1460,6 +1482,7 @@ a:hover, a:focus, a:active {
   -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
   color: black;
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
@@ -1600,12 +1623,12 @@ a:hover, a:focus, a:active {
 .probootstrap-tab-style-1 {
   position: absolute;
   bottom: 1px;
-  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-tab-style-1 {
     position: relative;
+    width: 100%;
   }
 }
 
